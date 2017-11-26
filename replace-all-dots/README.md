@@ -1,11 +1,11 @@
-##PROBLEM DOMAIN
+## PROBLEM DOMAIN
 The code provided is supposed replace all the dots (.) in the specified String, 'str' with dashes (-).
 But it's not working properly.
 
-####Task
+#### Task
 Fix the bug so we can all go home early.
 
-####Notes
+#### Notes
 String str will never be null.
 
 #### Link to challenge
