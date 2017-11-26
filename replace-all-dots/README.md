@@ -1,5 +1,5 @@
-## PROBLEM DOMAIN
-The code provided is supposed replace all the dots (.) in the specified String, 'str' with dashes (-).
+### PROBLEM DOMAIN
+The code provided is supposed to replace all the dots (.) in the specified string, 'str' with dashes (-).
 But it's not working properly.
 
 #### Task
