@@ -10,3 +10,6 @@ String str will never be null.
 
 #### Link to challenge
 https://www.codewars.com/kata/fixme-replace-all-dots/train/javascript
+
+### Pair-Programming
+Partner: Ryan Johnson
