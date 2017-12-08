@@ -1,13 +1,6 @@
 'use strict';
 
 function validateUsr(username) {
-  res = /[^a-z^\d^_]/g.test(username); // find any characters that break rules
-  var len = username.length;
-  if (res || len < 4 || len > 16) {return false;}
-
-  else if (!res) {
-    if (len > 3 && len < 16) {
-      return true;
-    }
-  }
+  res = /^[a-z\d_]{4,16}$/g.test(username); //search for lowercase char, numbers, or underscore, as well as string length range 4-16
+  return res;
 }
