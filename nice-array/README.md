@@ -10,4 +10,4 @@ https://www.codewars.com/kata/nice-array/train/javascript
 
 ### Collaboration/Whiteboard
 
-Partner:
+Partner: Aaron Bruce
