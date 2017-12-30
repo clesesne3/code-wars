@@ -8,4 +8,4 @@ https://www.codewars.com/kata/reversed-strings/train/javascript
 
 ### Collaboration/Whiteboard
 
-Partner: 
+Partner: Arthur Allen
