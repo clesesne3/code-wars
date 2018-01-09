@@ -11,13 +11,23 @@ function high(x){
     }
     return points;
   }
+  // store words and scores in object
   for (word in xArr) {
     console.log(xArr[word]);
     var currentWord = xArr[word];
     var currentPoints = wordPoints(currentWord)
     obj[currentWord] = currentPoints; 
   }
-  return Object.keys(obj).reduce((a,b) => {
+  // filter out highest scoring word
+  var highWord =  Object.keys(obj).reduce((a,b) => {
     return obj[a] > obj[b] ? a : b;
   });
+  
+  // return earliest/first word if multiple high scores
+  for (prop in obj) {
+    if (obj[prop] === obj[highWord]) {
+      return prop;
+      break;
+    }
+  }
 }
