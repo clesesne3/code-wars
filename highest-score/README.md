@@ -16,4 +16,4 @@ https://www.codewars.com/kata/highest-scoring-word/train/javascript
 
 ### Collaboration/Whiteboard
 
-Partner:
+Partner: Arthur Allen
